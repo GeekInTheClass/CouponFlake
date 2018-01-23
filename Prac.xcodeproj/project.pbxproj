@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEAE0B852016BE07006EC1FD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE0B842016BE07006EC1FD /* DetailViewController.swift */; };
+		CEAE0B872016C02D006EC1FD /* CouponModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE0B862016C02D006EC1FD /* CouponModel.swift */; };
 		CECA453C2015B28A00C7B661 /* subway.png in Resources */ = {isa = PBXBuildFile; fileRef = CECA453B2015B28A00C7B661 /* subway.png */; };
 		CECA45422015B69000C7B661 /* 아리랑.png in Resources */ = {isa = PBXBuildFile; fileRef = CECA453D2015B69000C7B661 /* 아리랑.png */; };
 		CECA45432015B69000C7B661 /* busKup.png in Resources */ = {isa = PBXBuildFile; fileRef = CECA453E2015B69000C7B661 /* busKup.png */; };
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CEAE0B842016BE07006EC1FD /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CEAE0B862016C02D006EC1FD /* CouponModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponModel.swift; sourceTree = "<group>"; };
 		CECA453B2015B28A00C7B661 /* subway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subway.png; sourceTree = "<group>"; };
 		CECA453D2015B69000C7B661 /* 아리랑.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "아리랑.png"; sourceTree = "<group>"; };
 		CECA453E2015B69000C7B661 /* busKup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = busKup.png; sourceTree = "<group>"; };
@@ -138,6 +142,8 @@
 				CECA45412015B69000C7B661 /* Moon.png */,
 				CEFBE1982015805A00454824 /* CouponTableViewController.swift */,
 				CEFBE18C20156D6B00454824 /* DataCenter.swift */,
+				CEAE0B862016C02D006EC1FD /* CouponModel.swift */,
+				CEAE0B842016BE07006EC1FD /* DetailViewController.swift */,
 				CEFBE1602015686C00454824 /* Main.storyboard */,
 				CEFBE1632015686C00454824 /* Assets.xcassets */,
 				CEFBE1652015686C00454824 /* LaunchScreen.storyboard */,
@@ -311,8 +317,10 @@
 			files = (
 				CEFBE15F2015686C00454824 /* ViewController.swift in Sources */,
 				CEFBE1992015805A00454824 /* CouponTableViewController.swift in Sources */,
+				CEAE0B852016BE07006EC1FD /* DetailViewController.swift in Sources */,
 				CEFBE18D20156D6B00454824 /* DataCenter.swift in Sources */,
 				CEFBE15D2015686C00454824 /* AppDelegate.swift in Sources */,
+				CEAE0B872016C02D006EC1FD /* CouponModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

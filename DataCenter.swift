@@ -30,6 +30,8 @@ class DataCenter: NSObject {
         personalInfo = createPersonalDummy()
     }
     
+    
+    
     class Coupon {
         let marketName : String
         let productName : String

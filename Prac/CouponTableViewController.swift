@@ -41,7 +41,10 @@ class CouponTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CouponList", for: indexPath)
+        
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")!
+        
 
         let currentCoupon = couponData[indexPath.row]
         
